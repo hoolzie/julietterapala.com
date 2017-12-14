@@ -49,6 +49,13 @@ hr.star-dark:after {
   color: #2C3E50;
   background-color: white; }
 
+.text-span {
+  color: aqua;
+}
+
+#skills {
+  color: black !important;
+}
 section {
   padding: 6rem 0; }
   section h2 {
