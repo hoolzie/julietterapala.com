@@ -35,22 +35,31 @@
 
 		<!-- Navigation
 		========================================== -->
-	    <nav class="navbar bg-secondary navbar-fixed-top text-uppercase" id="mainNav">
+	    <nav class="navbar bg-secondary navbar-fixed-top text-uppercase navbar-default" id="mainNav">
 	      <div class="container-fluid">
 	      	<div class="navbar-header">
-		        <a class="navbar-brand js-scroll-trigger" href="#page-top">Juliette Rapala</a>
+  				<!-- Mobile Collapse -->
+     			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar">
+            		<span class="sr-only">Toggle navigation</span>
+            		<span class="icon-bar" style="color: white !important"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+        		</button>
+		        <a class="navbar-brand" href="#page-top">Juliette Rapala</a>
 		    </div>
+			<div class="collapse navbar-collapse" id="top-navbar">
 	          <ul class="nav navbar-nav navbar-right">
 	            <li class="nav-item">
-	              <a class="nav-link rounded js-scroll-trigger" href="#about">About</a>
+	              <a class="nav-link js-scroll-trigger" href="#about">About</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+	              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link rounded js-scroll-trigger" href="#contact">Contact</a>
+	              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 	            </li>
 	          </ul>
+	         </div>
 	      </div>
 	    </nav>
 
@@ -85,6 +94,8 @@
 				</p>
 	          </div>
 	      </div>
+	    </section>
+	    <section id="skills">
 	      <div class="bg-primary">
 	      	<div class="container text-black">
 	      	<h3 class="text-center">Skills</h3>
@@ -453,7 +464,7 @@
     <script src="assets/js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="assets/js/freelancer.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
 
 
 </html>

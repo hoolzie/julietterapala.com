@@ -49,13 +49,36 @@ hr.star-dark:after {
   color: #2C3E50;
   background-color: white; }
 
+/********** Custom **********/
+
 .text-span {
   color: aqua;
 }
 
 #skills {
   color: black !important;
+  font-size: 1.1em;
 }
+
+#about {
+  padding-bottom: 18px;
+}
+
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/********************/
+
 section {
   padding: 6rem 0; }
   section h2 {
@@ -202,7 +225,28 @@ header.masthead {
     padding: 5rem;
     margin: 3rem calc(3rem - 8px); }
     .portfolio-modal .portfolio-modal-dialog h2 {
-      font-size: 3rem; } }
+      font-size: 3rem; }
+}
+
+@media (max-width: 768px) {
+  .navbar-fixed-top {
+    position: relative;
+    top: auto;
+  }
+
+  header {
+    margin-top: -100px;
+  }
+
+  #skills {
+    text-align: center;
+  }
+
+  #about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 
 .floating-label-form-group {
   position: relative;
@@ -290,3 +334,4 @@ a {
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f; }
+
