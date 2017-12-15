@@ -1,8 +1,15 @@
-/*!
- * Start Bootstrap - Freelancer v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
- */
+/* Animation Keyframes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@keyframes shake {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(10deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(-10deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
 body {
   font-family: 'Lato'; }
 
@@ -61,7 +68,7 @@ hr.star-dark:after {
 }
 
 #about {
-  padding-bottom: 18px;
+  padding-bottom: 10px;
 }
 
 .navbar.navbar-default {
@@ -75,6 +82,34 @@ hr.star-dark:after {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.social-icons img {
+  max-width: 60px;
+  margin: 5px 5px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  transition: transform .25s;
+  animation: shake .5s infinite;
+}
+
+#socialIcons {
+  padding-bottom: 60px;
+}
+
+
+.portfolioImages > a > img {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin-top: 10px;
+  max-width: 640px;
+}
+.portfolioImages > a > img:hover {
+  transform: scale(1.05);
+  transition: transform .25s;
 }
 
 /********************/
@@ -236,10 +271,6 @@ header.masthead {
 
   header {
     margin-top: -100px;
-  }
-
-  #skills {
-    text-align: center;
   }
 
   #about {
