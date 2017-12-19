@@ -112,8 +112,26 @@ hr.star-dark:after {
   transition: transform .25s;
 }
 
-#reelIt > a {
+.portfolioImages > a > img {
+  margin-bottom: 20px;
+}
+
+#reelIt > a, #brewOneTwo > a, #brewOneTwo > p > a {
   color: LightBlue;
+}
+
+.project-divider {
+  max-width: 30rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+}
+
+#contact {
+  padding-bottom: 200px;
 }
 /********************/
 
@@ -333,7 +351,10 @@ form .row:first-child .floating-label-form-group {
   color: #fff; }
 
 .copyright {
-  background-color: #1a252f; }
+  background-color: #1a252f; 
+  padding: 20px 0;
+  color: azure;
+}
 
 a {
   color: #18BC9C; }
