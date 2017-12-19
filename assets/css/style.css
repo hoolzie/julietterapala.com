@@ -112,6 +112,9 @@ hr.star-dark:after {
   transition: transform .25s;
 }
 
+#reelIt > a {
+  color: LightBlue;
+}
 /********************/
 
 section {
