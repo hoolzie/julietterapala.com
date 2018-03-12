@@ -71,5 +71,20 @@
       $(this).removeClass("floating-label-form-group-with-focus");
     });
   });
+               
 
 })(jQuery); // End of use strict
+
+$(document).ready(function()
+{
+    $("#reactionGif").hover(
+        function()
+        {
+            $(this).attr("src", "assets/img/reactionRadio06.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "assets/img/reactionRadio02.png");
+        }                         
+    );   
+});
