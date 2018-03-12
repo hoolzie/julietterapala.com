@@ -56,6 +56,14 @@ hr.star-dark:after {
   color: #2C3E50;
   background-color: white; }
 
+.desktopOnly {
+  display: inline;
+}
+
+.mobileOnly {
+  display: none;
+}
+
 /********** Custom **********/
 
 .text-span {
@@ -221,7 +229,7 @@ header.masthead {
     font-size: 3rem;
     line-height: 3rem; }
   header.masthead h2 {
-    font-size: 1.3rem;
+    font-size: 2.2rem;
     font-family: 'Lato'; }
 
 @media (min-width: 992px) {
@@ -389,4 +397,68 @@ a {
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f; }
+
+
+
+/* Media Queries 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+    /* Medium Devices, Desktops */
+    @media screen and (max-width : 980px) {
+
+    /*** Base Styles ***/
+
+/*    .container {
+      max-width: 750px;
+    }*/
+
+    /*** Main Content (Global) ***/
+
+
+    /*** About Page ***/
+
+
+    /*** Portfolio Page ***/
+
+    }
+
+    /* Small Devices, Tablets */
+    @media screen and (max-width : 768px) {
+    
+    /*** Base Styles ***/
+    
+    /*** Main Content (Global) ***/
+
+    /*** Aside (Global) ***/
+
+    /*** About Page ***/
+
+    /*** Portfolio Page ***/
+  
+  }
+
+    /* Extra Small Devices, Phones */ 
+    @media screen and (max-width : 640px) {
+
+    /*** Base Styles ***/
+
+    .mobileOnly {
+      display: block
+    }
+
+    .desktopOnly {
+      display: none;
+    }
+
+
+
+    /*** Main Content (Global) ***/
+
+
+    /*** Header ***/
+
+
+    /*** About Page ***/
+
+    }
 
