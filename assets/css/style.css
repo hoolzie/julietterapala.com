@@ -114,6 +114,8 @@ hr.star-dark:after {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   margin-top: 10px;
   max-width: 640px;
+  width: 100%;
+  height: auto;
 }
 .portfolioImages > a > img:hover {
   transform: scale(1.05);
@@ -141,6 +143,12 @@ hr.star-dark:after {
 #contact {
   padding-bottom: 200px;
 }
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #4a6682 !important;
+  height: 100%;
+}
+
 /********************/
 
 section {
@@ -450,7 +458,10 @@ a {
       display: none;
     }
 
-
+    .mobileAlign {
+      text-align: center;
+    }
+    
 
     /*** Main Content (Global) ***/
 
