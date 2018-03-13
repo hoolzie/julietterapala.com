@@ -59,6 +59,8 @@ hr.star-dark:after {
 
 .text-span {
   color: aqua;
+  text-shadow: 0.25px 0.25px #000000;
+
 }
 
 #skills {
@@ -117,9 +119,17 @@ hr.star-dark:after {
   margin-bottom: 20px;
 }
 
-#reelIt > a, #brewOneTwo > a, #brewOneTwo > p > a {
-  color: LightBlue;
+#reelIt > a, #brewOneTwo > a, #brewOneTwo > p > a, #reactionRadio > a {
+  color: #283d52;
+  font-size: 1.1em;
+  letter-spacing: .05em;
 }
+
+#reelIt > p, #brewOneTwo > p, #reactionRadio > p {
+  font-size: 1.1em;
+  letter-spacing: .05em;
+}
+
 
 .project-divider {
   max-width: 30rem;
