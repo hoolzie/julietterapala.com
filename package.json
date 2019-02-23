@@ -1,0 +1,36 @@
+{
+	"name": "julietterapala.com",
+	"version": "4.0.0",
+	"description": "Personal Website",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel src/index.html",
+		"format": "prettier --write \"src/**/*.{js,jsx}\"",
+		"lint": "eslint \"**/*.{js,jsx}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jrapala/julietterapala.com.git"
+	},
+	"author": "Juliette Rapala <juliette@julietterapala.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jrapala/julietterapala.com/issues"
+	},
+	"homepage": "https://github.com/jrapala/julietterapala.com#readme",
+	"devDependencies": {
+		"eslint": "^5.14.1",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^4.0.0",
+		"eslint-plugin-import": "^2.16.0",
+		"eslint-plugin-jsx-a11y": "^6.2.1",
+		"eslint-plugin-prettier": "^3.0.1",
+		"eslint-plugin-react": "^7.12.4",
+		"parcel-bundler": "^1.11.0",
+		"prettier": "^1.16.4"
+	},
+	"dependencies": {
+		"react": "^16.8.3",
+		"react-dom": "^16.8.3"
+	}
+}
