@@ -4,7 +4,7 @@
 	"description": "Personal Website",
 	"main": "index.js",
 	"scripts": {
-		"dev": "parcel src/index.html",
+		"dev": "parcel public/index.html",
 		"format": "prettier --write \"src/**/*.{js,jsx}\"",
 		"lint": "eslint \"**/*.{js,jsx}\""
 	},
@@ -30,6 +30,9 @@
 		"prettier": "^1.16.4"
 	},
 	"dependencies": {
+		"@emotion/core": "^10.0.7",
+		"@emotion/styled": "^10.0.7",
+		"emotion-theming": "^10.0.7",
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3"
 	}
