@@ -4,11 +4,13 @@ import styled from "@emotion/styled"
 
 const propTypes = {
 	filled: PropTypes.bool,
+	tabIndex: PropTypes.number,
 	text: PropTypes.string.isRequired,
 }
 
 const defaultProps = {
 	filled: false,
+	tabIndex: 0,
 }
 
 const StyledButton = styled.button`
@@ -29,8 +31,10 @@ const StyledButton = styled.button`
 	width: 120px;
 `
 
-const Button = ({ filled, text }) => (
-	<StyledButton filled={filled}>{text}</StyledButton>
+const Button = ({ filled, tabIndex, text }) => (
+	<StyledButton filled={filled} tabIndex={tabIndex}>
+		{text}
+	</StyledButton>
 )
 
 Button.propTypes = propTypes

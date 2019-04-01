@@ -11,6 +11,7 @@ const Image = styled.img`
 	position: fixed;
 	right: 0;
 	top: 0;
+	z-index: -99;
 `
 const BackgroundImage = () => <Image src={background} />
 
