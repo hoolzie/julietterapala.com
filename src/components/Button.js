@@ -29,6 +29,10 @@ const StyledButton = styled.button`
 	margin-top: 30px;
 	text-transform: uppercase;
 	width: 120px;
+	@media (max-width: 500px) {
+		margin-top: 20px;
+		margin-right: 0px;
+	}
 `
 
 const Button = ({ filled, tabIndex, text }) => (

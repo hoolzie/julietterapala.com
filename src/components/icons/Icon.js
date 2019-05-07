@@ -29,7 +29,6 @@ const Wrapper = styled.div`
 	height: 20px;
 	margin-top: 18px;
 	width: 100px;
-	/* z-index: 99; */
 `
 class Icon extends React.Component {
 	static propTypes = {
@@ -65,7 +64,7 @@ class Icon extends React.Component {
 				onBlur={this.hide}
 				tabIndex={tabIndex}
 			>
-				<StyledIcon icon={icon} hover={showText} />
+				<StyledIcon icon={icon} hover={showText ? 1 : 0} />
 				<Text>{showText ? text : ""}</Text>
 			</Wrapper>
 		)
